@@ -1,39 +1,23 @@
 import './sass/style.scss';
-import Nav from "./components/Nav";
+import Navigation from "./components/Navigation";
+import CarouselHome from "./components/Carousel";
+import Home from "./components/AccordionHome";
 
 function App() {
   return (
     <>
       <header>
-        <Nav />
+        <Navigation />
       </header>
       <main>
-
+        <CarouselHome />
+        <Home />
       </main>
 
 
       <footer>
 
       </footer>
-      {/* <div className="wrapper">
-                <Nav />
-                <Container>
-                    <UsersTable />
-                    <FeatureCards />
-                    <Row>
-                        <Col md={6}>
-                            <AdminAccordion />
-                            <div className="d-none d-md-block">
-                                <AdminTabs />
-                            </div>
-                        </Col>
-                        <Col md={6}>
-                            <CommentForm />
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
-            <Footer /> */}
     </>
   );
 }
