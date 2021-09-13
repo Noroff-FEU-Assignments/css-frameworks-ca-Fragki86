@@ -1,7 +1,7 @@
 /* --- Custom Variables --- */
 $colour-primary: rgb(233, 37, 105);
 $colour-secondary: rgb(239, 239, 239);
-$colour-radial-bg: radial-gradient(circle at 50% 0, rgba(255,0,0,.5), rgba(255,0,0,0) 70.71%);
+$colour-radial-bg: radial-gradient(#fff, #e5e5e5); 
 $colour-icons: rgb(118, 118, 118);
 
 
@@ -15,14 +15,13 @@ $font-family-paragraph: 'Lato', sans-serif;
 /* --- Bootstrap Variables --- */
 $headings-color: $colour-primary;
 
-$body-bg: $colour-radial-bg;
+// $body-bg: $colour-radial-bg;
 
 
 
 
 /* --- Imports --- */
-// @import "~bootstrap/scss/functions";
-// @import '~bootstrap/scss/variables';
+
 @import "~bootstrap/scss/bootstrap";
 
 
