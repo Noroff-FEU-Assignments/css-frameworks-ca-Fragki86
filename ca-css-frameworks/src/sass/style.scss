@@ -1,0 +1,26 @@
+/* --- Custom Variables --- */
+$colour-primary: #E92569;
+$colour-secondary: #EFEFEF;
+$colour-radial: radial-gradient(#ffffff - #E92569);
+
+
+
+
+
+
+/* --- Bootstrap Variables --- */
+
+
+
+
+
+
+/* --- Imports --- */
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "./partials/base.scss";
+@import "./partials/footer.scss";
+@import "./partials/nav.scss";
+@import "./partials/typography.scss";
+@import "./partials/base.scss";
