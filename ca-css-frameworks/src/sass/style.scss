@@ -3,6 +3,7 @@ $colour-primary: #e92569;
 $colour-secondary: #efefef;
 $colour-radial-bg: radial-gradient(#fff, #e5e5e5); 
 $colour-icons: #767676;
+$colour-links: #0a0a0a;
 
 
 $font-family-titles: 'Playfair Display', serif;
@@ -15,7 +16,21 @@ $font-family-paragraph: 'Lato', sans-serif;
 /* --- Bootstrap Variables --- */
 $headings-color: $colour-primary;
 
-// $body-bg: $colour-radial-bg;
+$theme-colors: (
+  "primary": $colour-primary,
+  "light": $colour-secondary
+);
+
+$navbar-light-brand-color: $colour-primary;
+$navbar-light-brand-hover-color: $colour-primary;
+
+$link-color: $colour-primary;
+
+
+// $nav-pills-border-radius: 0px; 
+// $nav-pills-link-active-color: white;
+$nav-pills-link-active-bg: #fff;
+// $btn-border-radius: 0;
 
 
 

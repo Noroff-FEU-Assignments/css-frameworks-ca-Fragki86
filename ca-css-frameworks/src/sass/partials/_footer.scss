@@ -1,0 +1,21 @@
+.foot-icons {
+  color: $colour-icons;
+  font-size: 1.5rem;
+  
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer p {
+  color: $colour-icons;
+  margin-bottom: 0;
+ 
+}
+
+footer .row {
+  align-items: center;
+}

@@ -1,0 +1,54 @@
+.navbar-brand {
+  font-size: 20px;
+  font-family: $font-family-titles;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-family: $font-family-paragraph;
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+}
+
+// .navbar-nav a{
+//   color: $colour-primary;
+// }
+
+
+.search-form {
+  border: none;
+}
+
+.form-btn {
+  color: white;
+
+  &:hover {
+    color: $colour-primary;
+    background-color: white;
+  }
+}
+
+
+
+// .nav-adjust {
+//   width: 60%;
+//   margin: 100px auto;
+// }
+
+
+@media (min-width: 990px) {
+  .nav-link {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  // .nav-adjust {
+  //   width: 100%;
+  //   display: flex;
+  //   justify-content: space-between;
+  // }
+}

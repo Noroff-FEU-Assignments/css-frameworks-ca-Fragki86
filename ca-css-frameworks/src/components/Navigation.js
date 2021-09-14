@@ -4,30 +4,36 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+import InputGroup from "react-bootstrap/InputGroup";
 
 function Navigation() {
     return (
       <header>
       <Navbar bg="light" expand="lg">
           <Container>
-            <Navbar.Brand href="#">The YAY company</Navbar.Brand>
+            <Navbar.Brand href="#">The YAY Company</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
-            <Navbar.Collapse id="navbarScroll">
-              <Nav>
+            <Container>
+            <Navbar.Collapse id="navbarScroll" className="nav-adjust">
+              <Nav className="me-auto" variant="pills">
                 <Nav.Link href="#action1">Home</Nav.Link>
                 <Nav.Link href="#action2">News</Nav.Link>
-                <Nav.Link href="#action2">Contact</Nav.Link>
+                <Nav.Link href="#action3">Contact</Nav.Link>
               </Nav>
-              <Form className="d-flex">
+              <Form>
+              <InputGroup className="search-form">
                 <Form.Control
                   type="search"
                   placeholder="Search"
-                  className="mr-2"
                   aria-label="Search"
                 />
-                <Button variant="outline-success">Search</Button>
+                <Button className="form-btn" bg="dark" variant="primary">
+                  Go
+                </Button>
+              </InputGroup>
               </Form>
             </Navbar.Collapse>
+            </Container>
           </Container>
         </Navbar>
         </header>
