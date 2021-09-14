@@ -1,0 +1,16 @@
+#accordion-style {
+  border-radius: 50px;
+}
+
+.card-header {
+  background-color: #fff;  
+
+  & button {
+    font-size: 19px;
+  }
+}
+
+.card-body {
+  background: $colour-radial-bg-card;
+  border-top: 1px solid $colour-primary;
+}

@@ -5,12 +5,13 @@ import Button from "react-bootstrap/Button"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebookF} from "@fortawesome/free-brands-svg-icons";
 import {faTwitter} from "@fortawesome/free-brands-svg-icons";
+import Container from "react-bootstrap/esm/Container";
 
 
 function AccordionHome() {
     return (
-        <Accordion defaultActiveKey="0" className="d-md-none">
-        <Card>
+        <Accordion defaultActiveKey="0" className="d-md-none" id="accordion-style">
+            <Card>
                 <Card.Header>
                     <Accordion.Toggle as={Button} variant="link" eventKey="0">
                         First
@@ -19,7 +20,7 @@ function AccordionHome() {
                 <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p> 
-                        <img src="Tab-images/tab-1.jpg" />
+                        <img src="Tab-images/tab-1.jpg" className="card-image"/>
                         <div className="card-social">
                             <span>Share</span>
                             <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>

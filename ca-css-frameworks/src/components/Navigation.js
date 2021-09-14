@@ -13,6 +13,7 @@ function Navigation() {
           <Container>
             <Navbar.Brand href="#">The YAY Company</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
+          {/* </Container> */}
             <Container>
             <Navbar.Collapse id="navbarScroll" className="nav-adjust">
               <Nav className="me-auto" variant="pills">
