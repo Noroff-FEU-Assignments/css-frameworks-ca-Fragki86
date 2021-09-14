@@ -7,6 +7,7 @@ import Container from "react-bootstrap/Container";
 
 function Navigation() {
     return (
+      <header>
       <Navbar bg="light" expand="lg">
           <Container>
             <Navbar.Brand href="#">The YAY company</Navbar.Brand>
@@ -29,6 +30,7 @@ function Navigation() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
+        </header>
     );
 }
 

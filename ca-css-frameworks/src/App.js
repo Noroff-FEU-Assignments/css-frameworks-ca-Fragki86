@@ -1,23 +1,21 @@
 import './sass/style.scss';
 import Navigation from "./components/Navigation";
 import CarouselHome from "./components/Carousel";
-import Home from "./components/AccordionHome";
+import AccordionHome from "./components/AccordionHome";
+import Footer from "./components/Footer";
+
+
 
 function App() {
   return (
     <>
-      <header>
         <Navigation />
-      </header>
       <main>
         <CarouselHome />
-        <Home />
+        <AccordionHome />
+        
       </main>
-
-
-      <footer>
-
-      </footer>
+        <Footer />
     </>
   );
 }
