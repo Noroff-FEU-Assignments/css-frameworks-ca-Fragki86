@@ -12,9 +12,32 @@
 footer p {
   color: $colour-icons;
   margin-bottom: 0;
- 
+}
+
+.f-date {
+  text-align: right;
+}
+
+.f-email {
+  text-align: left;
 }
 
 footer .row {
   align-items: center;
+}
+
+
+
+@media (min-width: 700px) {
+  footer {
+    padding: 0.5rem 0;
+  }
+
+  .social {
+    justify-content: left;
+  }
+
+  .f-email {
+    text-align: center;
+  }
 }

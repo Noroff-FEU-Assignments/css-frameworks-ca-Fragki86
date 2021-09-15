@@ -18,7 +18,7 @@ function AccordionHome() {
                     </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
-                    <Card.Body>
+                    <Card.Body className="card-accordion-body">
                     <Row>
                         <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p> 
                         <img src="Tab-images/tab-1.jpg" className="card-image" alt="An old TV"/>

@@ -34,7 +34,6 @@ $link-color: $colour-primary;
 $link-decoration: none;
 
 
-
 $btn-font-size: 16px;
 $btn-font-family: $font-family-paragraph;
 
@@ -46,11 +45,16 @@ $nav-tabs-link-active-color: $colour-icons;
 $nav-tabs-link-active-bg: #fff;
 
 
+$pagination-border-color: $colour-primary;
+$pagination-padding-y: .9rem;
+$pagination-padding-x: 1.5rem;
+$pagination-hover-color: $colour-icons;
+$pagination-hover-border-color: $colour-primary;
 
-// $border-radius: none;
-// $accordion-border-radius: 30px;
-// $nav-tabs-border-radius: 30px;
-// $btn-border-radius: 0;
+
+$card-border-width: 0px;
+$card-border-radius: 10px;
+
 
 
 
@@ -68,3 +72,5 @@ $nav-tabs-link-active-bg: #fff;
 @import "./partials/accordion.scss";
 @import "./partials/carousel.scss";
 @import "./partials/tabs.scss";
+@import "./partials/pagination.scss";
+@import "./partials/cards.scss";

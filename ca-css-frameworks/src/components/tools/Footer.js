@@ -18,10 +18,10 @@ function Footer() {
             <FontAwesomeIcon icon={faYoutube} className="foot-icons"></FontAwesomeIcon>
           </Col>
           <Col>
-            <p>hello@mail.com</p>
+            <p className="f-email">hello@yay.com</p>
           </Col>
           <Col>
-            <p>Copyright {new Date().getFullYear()}</p>
+            <p className="f-date">Copyright {new Date().getFullYear()}</p>
           </Col>
         </Row>
         </Container>

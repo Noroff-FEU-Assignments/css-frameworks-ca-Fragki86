@@ -1,8 +1,8 @@
 import React from "react";
-// import CarouselHome from "../tools/Carousel"
-// import AccordionHome from "../tools/Accordion"
-// import TabsHome from "../tools/Tabs"
 import Container from "react-bootstrap/Container";
+import PaginationNews from "../tools/Pagination";
+import CardNews from "../tools/Cards";
+
 
 
 
@@ -11,6 +11,8 @@ function News() {
       <main>
         <Container>
           <h1>NEWS</h1>
+          <PaginationNews />
+          <CardNews />
         </Container>
       </main>
     );
