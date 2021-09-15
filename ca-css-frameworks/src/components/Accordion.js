@@ -6,6 +6,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebookF} from "@fortawesome/free-brands-svg-icons";
 import {faTwitter} from "@fortawesome/free-brands-svg-icons";
 import Container from "react-bootstrap/esm/Container";
+import Row from "react-bootstrap/esm/Row";
+import Col from "react-bootstrap/esm/Col";
 
 
 function AccordionHome() {
@@ -19,13 +21,15 @@ function AccordionHome() {
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
                     <Card.Body>
+                    <Row>
                         <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p> 
-                        <img src="Tab-images/tab-1.jpg" className="card-image"/>
+                        <img src="Tab-images/tab-1.jpg" className="card-image" alt="An old TV"/>
                         <div className="card-social">
                             <span>Share</span>
-                            <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
-                            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                            <FontAwesomeIcon icon={faFacebookF} className="social-icons"></FontAwesomeIcon>
+                            <FontAwesomeIcon icon={faTwitter} className="social-icons"></FontAwesomeIcon>
                         </div>
+                    </Row>
                     </Card.Body>
                 </Accordion.Collapse>
             </Card>
@@ -36,13 +40,17 @@ function AccordionHome() {
                     </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="1">
-                    <Card.Body><p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p> 
-                        <img src="Tab-images/tab-2.jpg" />
-                        <div className="card-social">
-                            <span>Share</span>
-                            <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
-                            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                        </div></Card.Body>
+                    <Card.Body>
+                        <Row>
+                            <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p> 
+                            <img src="Tab-images/tab-2.jpg" className="card-image" alt="Many frames on the wall with coffee cups"/>
+                            <div className="card-social">
+                                <span>Share</span>
+                                <FontAwesomeIcon icon={faFacebookF} className="social-icons"></FontAwesomeIcon>
+                                <FontAwesomeIcon icon={faTwitter} className="social-icons"></FontAwesomeIcon>
+                            </div>
+                        </Row>
+                    </Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card>
@@ -52,13 +60,17 @@ function AccordionHome() {
                     </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="2">
-                    <Card.Body><p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p> 
-                        <img src="Tab-images/tab-3.jpg" />
-                        <div className="card-social">
-                            <span>Share</span>
-                            <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
-                            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                        </div></Card.Body>
+                    <Card.Body>
+                        <Row>
+                            <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p> 
+                            <img src="Tab-images/tab-3.jpg" className="card-image" alt="A broken window"/>
+                            <div className="card-social">
+                                <span>Share</span>
+                                <FontAwesomeIcon icon={faFacebookF} className="social-icons"></FontAwesomeIcon>
+                                <FontAwesomeIcon icon={faTwitter} className="social-icons"></FontAwesomeIcon>
+                            </div>
+                        </Row>
+                    </Card.Body>
                 </Accordion.Collapse>           
             </Card>
         </Accordion>

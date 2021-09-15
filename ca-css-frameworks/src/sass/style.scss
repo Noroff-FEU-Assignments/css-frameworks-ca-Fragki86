@@ -7,6 +7,9 @@ $colour-icons: #767676;
 $colour-links: #0a0a0a;
 
 
+$custom-border-rad: 30px;
+
+
 $font-family-titles: 'Playfair Display', serif;
 $font-family-paragraph: 'Lato', sans-serif;
 
@@ -37,8 +40,8 @@ $link-decoration: none;
 $btn-font-size: 16px;
 $btn-font-family: $font-family-paragraph;
 
-
-// $accordion-border-radius: 50px;
+// $border-radius: none;
+$accordion-border-radius: 30px;
 // $btn-border-radius: 0;
 
 
