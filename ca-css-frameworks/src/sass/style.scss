@@ -34,15 +34,18 @@ $link-color: $colour-primary;
 $link-decoration: none;
 
 
-$accordion-border-radius: 40px !important;
-// $nav-tabs-border-radius: 0px;
-// $card-border-radius: 0px;
 
-// $nav-pills-border-radius: 0px; 
-// $nav-pills-link-active-color: white;
-// $btn-link-color:;
 $btn-font-size: 16px;
 $btn-font-family: $font-family-paragraph;
+
+
+$nav-tabs-border-color: #ededed;
+$nav-tabs-border-radius: 10px;
+$nav-tabs-link-hover-border-color: $colour-primary;
+$nav-tabs-link-active-color: $colour-icons;
+$nav-tabs-link-active-bg: #fff;
+
+
 
 // $border-radius: none;
 // $accordion-border-radius: 30px;
@@ -64,3 +67,4 @@ $btn-font-family: $font-family-paragraph;
 @import "./partials/typography.scss";
 @import "./partials/accordion.scss";
 @import "./partials/carousel.scss";
+@import "./partials/tabs.scss";

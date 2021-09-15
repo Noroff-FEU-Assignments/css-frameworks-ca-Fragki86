@@ -18,8 +18,8 @@ function Navigation() {
             <Navbar.Collapse id="navbarScroll" className="nav-adjust">
               <Nav className="me-auto" variant="pills">
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/pages/News.js">News</Nav.Link>
-                <Nav.Link href="#action3">Contact</Nav.Link>
+                <Nav.Link href="/news">News</Nav.Link>
+                <Nav.Link href="/contact">Contact</Nav.Link>
               </Nav>
               <Form>
               <InputGroup className="search-form">

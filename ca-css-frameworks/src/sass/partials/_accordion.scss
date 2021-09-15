@@ -1,6 +1,16 @@
 #accordion-style {
   filter: drop-shadow(0 0 .5rem $colour-icons);
-  border-radius: 50px !important;
+  
+}
+
+.accordion > .card:first-of-type {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.accordion > .card:last-of-type {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .card-header {

@@ -5,9 +5,7 @@ import Button from "react-bootstrap/Button"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebookF} from "@fortawesome/free-brands-svg-icons";
 import {faTwitter} from "@fortawesome/free-brands-svg-icons";
-import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
-import Col from "react-bootstrap/esm/Col";
 
 
 function AccordionHome() {

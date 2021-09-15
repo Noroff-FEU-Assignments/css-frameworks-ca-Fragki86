@@ -4,8 +4,6 @@ import AccordionHome from "../tools/Accordion"
 import TabsHome from "../tools/Tabs"
 import Container from "react-bootstrap/Container";
 
-
-
 function Home() {
     return (
       <main>
