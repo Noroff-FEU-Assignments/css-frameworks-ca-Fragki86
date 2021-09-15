@@ -1,7 +1,7 @@
 import React from "react";
-import CarouselHome from "./Carousel"
-import AccordionHome from "./Accordion"
-import TabsHome from "./Tabs"
+import CarouselHome from "../tools/Carousel"
+import AccordionHome from "../tools/Accordion"
+import TabsHome from "../tools/Tabs"
 import Container from "react-bootstrap/Container";
 
 

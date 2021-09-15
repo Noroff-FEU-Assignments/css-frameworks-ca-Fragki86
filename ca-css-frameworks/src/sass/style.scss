@@ -34,6 +34,10 @@ $link-color: $colour-primary;
 $link-decoration: none;
 
 
+$accordion-border-radius: 40px !important;
+// $nav-tabs-border-radius: 0px;
+// $card-border-radius: 0px;
+
 // $nav-pills-border-radius: 0px; 
 // $nav-pills-link-active-color: white;
 // $btn-link-color:;
@@ -41,7 +45,8 @@ $btn-font-size: 16px;
 $btn-font-family: $font-family-paragraph;
 
 // $border-radius: none;
-$accordion-border-radius: 30px;
+// $accordion-border-radius: 30px;
+// $nav-tabs-border-radius: 30px;
 // $btn-border-radius: 0;
 
 
@@ -58,3 +63,4 @@ $accordion-border-radius: 30px;
 @import "./partials/nav.scss";
 @import "./partials/typography.scss";
 @import "./partials/accordion.scss";
+@import "./partials/carousel.scss";

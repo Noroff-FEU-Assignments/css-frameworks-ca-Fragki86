@@ -17,8 +17,8 @@ function Navigation() {
             <Container>
             <Navbar.Collapse id="navbarScroll" className="nav-adjust">
               <Nav className="me-auto" variant="pills">
-                <Nav.Link href="#action1">Home</Nav.Link>
-                <Nav.Link href="#action2">News</Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/pages/News.js">News</Nav.Link>
                 <Nav.Link href="#action3">Contact</Nav.Link>
               </Nav>
               <Form>
