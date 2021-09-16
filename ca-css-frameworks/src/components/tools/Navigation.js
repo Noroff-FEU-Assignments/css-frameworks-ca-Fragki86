@@ -27,6 +27,7 @@ function Navigation() {
                   type="search"
                   placeholder="Search"
                   aria-label="Search"
+                  className="search-input"
                 />
                 <Button className="form-btn" bg="dark" variant="primary">
                   Go

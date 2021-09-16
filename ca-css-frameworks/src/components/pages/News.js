@@ -4,8 +4,6 @@ import PaginationNews from "../tools/Pagination";
 import CardNews from "../tools/Cards";
 
 
-
-
 function News() {
     return (
       <main>
@@ -13,6 +11,7 @@ function News() {
           <h1>NEWS</h1>
           <PaginationNews />
           <CardNews />
+          <PaginationNews />
         </Container>
       </main>
     );

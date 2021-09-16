@@ -1,11 +1,33 @@
 .card-news {
   filter: drop-shadow(0 0 .5rem $colour-icons);
-  width: 21rem;
-  height: 25rem;
-  margin: 0px auto;
+  max-width: 340px;
+  max-height: 414px;
+  margin: 2.2rem auto 0 auto;
+}
+
+.card-title-news {
+  color: $colour-links;
+  font-family: $font-family-paragraph;
 }
 
 .card-body {
   background-color: #fff;
   border-radius: 0 0 10px 10px;
+}
+
+.card-news-p {
+  font-size: 18px;
+}
+
+.btn-group {
+  // width: 100%;
+
+  & > .btn:first-of-type {
+    text-transform: uppercase;
+    width: 90%;
+  }
+
+  & > .btn:last-of-type {
+    width: 10%;
+  }
 }

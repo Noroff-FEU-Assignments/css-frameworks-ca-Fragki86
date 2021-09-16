@@ -22,6 +22,7 @@ $headings-color: $colour-primary;
 
 $theme-colors: (
   "primary": $colour-primary,
+  "secondary" : $colour-icons,
   "light": $colour-secondary
 );
 
@@ -54,15 +55,19 @@ $pagination-hover-border-color: $colour-primary;
 
 $card-border-width: 0px;
 $card-border-radius: 10px;
+$card-spacer-y: 1rem;
+
+$input-border-color: $colour-secondary;
+$input-height: 3.5rem;
+
+$form-check-input-gutter: 1.5rem;
 
 
 
 
 
 /* --- Imports --- */
-
 @import "~bootstrap/scss/bootstrap";
-
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
 @import "./partials/base.scss";
@@ -74,3 +79,4 @@ $card-border-radius: 10px;
 @import "./partials/tabs.scss";
 @import "./partials/pagination.scss";
 @import "./partials/cards.scss";
+@import "./partials/contact-form.scss";

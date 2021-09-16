@@ -1,19 +1,19 @@
 import React from "react";
-// import CarouselHome from "../tools/Carousel"
-// import AccordionHome from "../tools/Accordion"
-// import TabsHome from "../tools/Tabs"
 import Container from "react-bootstrap/Container";
-
+import ContactForm from "../tools/Contact-form";
+import ContactInfo from "../tools/Contact-info";
 
 
 function Contact() {
     return (
       <main>
         <Container>
-          <h1>CONTACT</h1>
+          <ContactInfo />
+          <h1>Submit your details</h1>
         </Container>
+          <ContactForm />
       </main>
-    );
-}
+
+)};
 
 export default Contact;
