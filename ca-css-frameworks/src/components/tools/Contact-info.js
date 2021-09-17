@@ -11,33 +11,33 @@ function ContactInfo() {
     return (
       <>
       <Container className="contact-info-container">
-      <Row className="mb-2">
-        <Col xs={2} className="contact-info-icons">
-          <FontAwesomeIcon icon={faEnvelope} className="foot-icons"></FontAwesomeIcon>
-        </Col>
-        <Col xs={10} className="contact-info-details">
-          <p>hello@yay.com</p>
+        <Row className="mb-2">
+          <Col xs={1} className="contact-info-icons">
+            <FontAwesomeIcon icon={faEnvelope} className="foot-icons"></FontAwesomeIcon>
           </Col>
-      </Row>
-      <Row className="mb-2">
-        <Col xs={2} className="contact-info-icons">
-          <FontAwesomeIcon icon={faPhone} className="foot-icons"></FontAwesomeIcon>
-        </Col>
-        <Col xs={10} className="contact-info-details">
-          <p>123 456 7890</p>
-        </Col>
-      </Row>
-      <Row className="mb-2">
-        <Col xs={2} className="contact-info-icons">
-        <FontAwesomeIcon icon={faMapMarkerAlt} className="foot-icons"></FontAwesomeIcon>
-        </Col>
-        <Col xs={10} className="contact-info-details" id="contact-info-address">
-          <p>123 Some Street</p>
-          <p>Somewhere</p>
-          <p>Some City</p>
-          <p>10000</p>
-        </Col>
-      </Row>
+          <Col xs={10} className="contact-info-details">
+            <p>hello@yay.com</p>
+            </Col>
+        </Row>
+        <Row className="mb-2">
+          <Col xs={1} className="contact-info-icons">
+            <FontAwesomeIcon icon={faPhone} className="foot-icons"></FontAwesomeIcon>
+          </Col>
+          <Col xs={10} className="contact-info-details">
+            <p>123 456 7890</p>
+          </Col>
+        </Row>
+        <Row className="mb-2">
+          <Col xs={1} className="contact-info-icons">
+          <FontAwesomeIcon icon={faMapMarkerAlt} className="foot-icons"></FontAwesomeIcon>
+          </Col>
+          <Col xs={10} className="contact-info-details" id="contact-info-address">
+            <p>123 Some Street</p>
+            <p>Somewhere</p>
+            <p>Some City</p>
+            <p>10000</p>
+          </Col>
+        </Row>
       </Container>
       </>
     );

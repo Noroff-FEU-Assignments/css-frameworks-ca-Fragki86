@@ -1,8 +1,8 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
 import CarouselHome from "../tools/Carousel"
 import AccordionHome from "../tools/Accordion"
 import TabsHome from "../tools/Tabs"
-import Container from "react-bootstrap/Container";
 
 function Home() {
     return (

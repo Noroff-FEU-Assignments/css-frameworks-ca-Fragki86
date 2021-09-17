@@ -13,28 +13,27 @@ function Navigation() {
           <Container>
             <Navbar.Brand href="#">The YAY Company</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
-          {/* </Container> */}
             <Container>
-            <Navbar.Collapse id="navbarScroll" className="nav-adjust">
-              <Nav className="me-auto" variant="pills">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/news">News</Nav.Link>
-                <Nav.Link href="/contact">Contact</Nav.Link>
-              </Nav>
-              <Form>
-              <InputGroup className="search-form">
-                <Form.Control
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                  className="search-input"
-                />
-                <Button className="form-btn" bg="dark" variant="primary">
-                  Go
-                </Button>
-              </InputGroup>
-              </Form>
-            </Navbar.Collapse>
+              <Navbar.Collapse id="navbarScroll" className="nav-adjust">
+                <Nav className="me-auto" variant="pills" >
+                  <Nav.Link href="/" active>Home</Nav.Link>
+                  <Nav.Link href="/news">News</Nav.Link>
+                  <Nav.Link href="/contact">Contact</Nav.Link>
+                </Nav>
+                <Form>
+                <InputGroup className="search-form">
+                  <Form.Control
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                    className="search-input"
+                  />
+                  <Button className="form-btn" bg="dark" variant="primary">
+                    Go
+                  </Button>
+                </InputGroup>
+                </Form>
+              </Navbar.Collapse>
             </Container>
           </Container>
         </Navbar>

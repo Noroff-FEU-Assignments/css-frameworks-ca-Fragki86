@@ -2,10 +2,10 @@ import React from "react";
 import Accordion from "react-bootstrap/Accordion"
 import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/Button"
+import Row from "react-bootstrap/esm/Row";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebookF} from "@fortawesome/free-brands-svg-icons";
 import {faTwitter} from "@fortawesome/free-brands-svg-icons";
-import Row from "react-bootstrap/esm/Row";
 
 
 function AccordionHome() {
