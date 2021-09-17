@@ -1,0 +1,22 @@
+.contact-info-container {
+  margin-top: 3rem;
+  padding-right: 0;
+
+  @media (min-width:760px) {
+    margin-top: 6.5rem;
+  }
+
+}
+
+.contact-info-icons {
+  padding-right: 0;
+}
+
+.contact-info-details {
+  padding: 0;
+}
+
+#contact-info-address p {
+  margin-bottom: 0;
+}
+

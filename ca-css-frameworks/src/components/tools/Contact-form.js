@@ -12,8 +12,11 @@ import Container from "react-bootstrap/esm/Container";
 function ContactForm() {
     return (
       <>
-      <Form className="contact-form">
-      <Container>
+      <Container className="px-sm-0">  
+      <h1>Submit your details</h1>
+      </Container>
+      <Form className="contact-form mt-md-4">
+        <Container>
         <Form.Group controlId="formName">
           <Form.Label>Name</Form.Label>
           <Form.Control type="password" />
@@ -23,7 +26,6 @@ function ContactForm() {
           <Form.Label>Email</Form.Label>
           <Form.Control type="email" />
         </Form.Group>
-
 
         <Form.Label>Website</Form.Label>
         <InputGroup>
@@ -43,10 +45,10 @@ function ContactForm() {
         <Form.Group controlId="formBasicCheckbox">
           <Form.Check className="checkbox" variant="primary" type="checkbox" label="Allow us to sell your personal details to whomever we want" />
         </Form.Group>
-        <Button className="d-flex" variant="secondary" type="submit">
+        <Button className="contact-form-btn" variant="secondary" type="submit">
           Submit
         </Button>
-      </Container>
+        </Container>
       </Form>
       </>
     );

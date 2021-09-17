@@ -9,7 +9,7 @@ import img3 from "./../../Carousel-images/carousel-3.jpg";
 
 function CarouselHome() {
     return (
-      <Carousel>
+      <Carousel className="">
         <Carousel.Item >
           <img
             className="d-block w-100"

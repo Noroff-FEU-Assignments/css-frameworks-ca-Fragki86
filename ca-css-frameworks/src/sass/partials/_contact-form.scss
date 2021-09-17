@@ -3,7 +3,7 @@
   filter: drop-shadow(0 0 .3rem $colour-icons);
   margin: 1.1rem 0 ;
   padding: 30px 0;
-  max-width: 414px;
+  max-width: 555px;
 }
 
 .form-group, .input-group {
@@ -42,6 +42,7 @@
   color: $colour-icons;
   font-family: $font-family-paragraph;
   padding-left: 20px;
+  
 }
 
 .input-group-text {
@@ -49,4 +50,14 @@
   background-color: #c7c7c7;
   border: 1px solid #c7c7c7;
   height: 3.5rem;
+}
+
+.contact-form-btn {
+  width: 100%;
+}
+
+@media (min-width: 430px) {
+  .form-check-label {
+    margin-top: 10px;
+  }  
 }
