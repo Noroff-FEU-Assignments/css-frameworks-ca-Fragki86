@@ -11,10 +11,10 @@ function Contact() {
       <main>
         <Container className="px-0 px-sm-3">
           <Row className="main-contact-container">
-            <Col md={6} md={{order:2}} className="pr-0">
+            <Col md={6} md={{order:2}}>
               <ContactInfo/>
             </Col>
-            <Col md={6} className="pr-0">
+            <Col md={6}>
               <ContactForm />
             </Col>
           </Row>
